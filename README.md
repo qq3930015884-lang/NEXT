@@ -39,6 +39,11 @@
 |---|---|---|
 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 137K | 最强节点式 Stable Diffusion 图形界面 |
 
+## 🎬 视频生成
+| 项目 | Star | 一句话 |
+|---|---|---|
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 64.6K | 用 HTML 写视频，让 AI Agent 一键渲染成 MP4 |
+
 ## 📡 信息获取
 | 项目 | Star | 一句话 |
 |---|---|---|
