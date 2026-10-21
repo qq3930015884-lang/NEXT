@@ -4,12 +4,12 @@
 Check that your GCP e2-micro really stays inside the Always Free tier, and add a $1 budget alert.
 
 ## 为什么需要
-很多教程说“绑卡的谷歌号 = 一台免费 VPS / 永久梯子”。按官方文档，免费层只包括：
+不少教程把 GCP 免费层描述成“永久免费 VPS”，但按官方文档，免费层只包括：
 - 每月 1 台非抢占式 e2-micro，且只限 us-west1 / us-central1 / us-east1
 - 30 GB 标准永久磁盘（pd-standard）
 - 每月 1 GB 北美出站流量，**不含发往中国和澳大利亚的流量**
 
-选错区域、用了 balanced 盘、开了两台、或者当梯子从国内连，都会产生费用。
+选错区域、用了 balanced 盘、开了两台、或者产生发往中国大陆/澳大利亚的出站流量，都会产生费用。
 
 ## 用法
 ```bash
